@@ -1,4 +1,4 @@
-group 'com.example.imagegallerysaver'
+//group 'com.example.imagegallerysaver'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 30
-
+    namespace = "com.example.bitverse.plugins.image_gallery_saver"
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
